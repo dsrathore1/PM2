@@ -37,20 +37,20 @@ This are the list which PM2 provide us :-
 ### Installation
 Simple PM2 package install in global packages.
 
-> **`npm install -g pm2`**
+ **`npm install -g pm2`**
 
 ### Start An App
 The simplest way to start, ==Daemonize==, ==Monitor== our application
 
-> **`pm2 start <filename>`**
+ **`pm2 start <filename>`**
 
  - eg:-
-    > **`pm2 start app.js`**
+     **`pm2 start app.js`**
 
 ### Some basic commands :-
 
 1. **==Start==** the application which has to be present in same directory where this operation will get perform.
-    > **`pm2 start <filename>`**
+     **`pm2 start <filename>`**
 
 2. **==Restart==**
      **`pm2 restart <filename>`**
@@ -73,4 +73,4 @@ The simplest way to start, ==Daemonize==, ==Monitor== our application
 ![list image](https://i.imgur.com/LmRD3FN.png)
 
 8. **==Logs==**
-   > **`pm2 logs`**
+    **`pm2 logs`**
