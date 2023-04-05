@@ -14,12 +14,12 @@ I learnt how it daemonize when we close the project and this holds all the logs,
 This are the list which PM2 provide us :-
 
 | No. | List                   |
-|-----|------------------------|
+| --- | ---------------------- |
 | 1   | BEHAVIOR CONFIGURATION |
 | 2   | SOURCE MAP SUPPORT     |
 | 3   | CONTAINER INTEGRATION  |
 | 4   | WATCH & RELOAD         |
-| 5   | ==**LOG MANAGEMENT**==     |
+| 5   | ==**LOG MANAGEMENT**== |
 | 6   | MONITORING             |
 | 7   | MODULE SYSTEM          |
 | 8   | MAX MEMORY RELOAD      |
@@ -36,41 +36,69 @@ This are the list which PM2 provide us :-
 
 ### Installation
 Simple PM2 package install in global packages.
-
- **`npm install -g pm2`**
-
+```
+npm install -g pm2
+```
 ### Start An App
 The simplest way to start, ==Daemonize==, ==Monitor== our application
 
- **`pm2 start <filename>`**
+```
+pm2 start <filename>
+```
 
  - eg:-
-     **`pm2 start app.js`**
+    ```
+    pm2 start app.js
+    ```
 
 ### Some basic commands :-
 
 1. **==Start==** the application which has to be present in same directory where this operation will get perform.
-     **`pm2 start <filename>`**
+    
+    ```
+    pm2 start <filename>
+    ```
 
 2. **==Restart==**
-     **`pm2 restart <filename>`**
+     
+     ```
+     pm2 restart <filename>
+     ```
 
 3. **==Reload==**
-     **`pm2 reload <app_name>`**
+     
+     ```
+     pm2 reload <app_name>
+     ```
 
 4. **==Stop==**
-     **`pm2 stop <fileName>`**
+   
+     ```
+     pm2 stop <fileName>
+     ```
 
 5. **==Kill==** it will kill the process
-    **`pm2 kill <filename/id>`**
+    
+    ```
+    pm2 kill <filename/id>
+    ```
 
 6. **==Delete==** it will delete all the process in go
-    **`pm2 delete`**
+    
+    ```
+    pm2 delete
+    ```
 
 7. **==Lists==**
-     **`pm2 ls`**
+     
+     ```
+     pm2 ls
+     ```
 
 ![list image](https://i.imgur.com/LmRD3FN.png)
 
 8. **==Logs==**
-    **`pm2 logs`**
+   
+   ```
+   pm2 logs
+   ```
