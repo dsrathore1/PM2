@@ -53,22 +53,22 @@ The simplest way to start, ==Daemonize==, ==Monitor== our application
     > **`pm2 start <filename>`**
 
 2. **==Restart==**
-    > **`pm2 restart <filename>`**
+     **`pm2 restart <filename>`**
 
 3. **==Reload==**
-    > **`pm2 reload <app_name>`**
+     **`pm2 reload <app_name>`**
 
 4. **==Stop==**
-    > **`pm2 stop <fileName>`**
+     **`pm2 stop <fileName>`**
 
 5. **==Kill==** it will kill the process
-   > **`pm2 kill <filename/id>`**
+    **`pm2 kill <filename/id>`**
 
 6. **==Delete==** it will delete all the process in go
-   > **`pm2 delete`**
+    **`pm2 delete`**
 
 7. **==Lists==**
-    > **`pm2 ls`**
+     **`pm2 ls`**
 
 ![list image](https://i.imgur.com/LmRD3FN.png)
 
