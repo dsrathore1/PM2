@@ -1,0 +1,20 @@
+{
+    "apps": [
+        {
+            "name": "P2 File",
+            "//Comment ": "This below line (script) is most important",
+            "script": "./app.js",
+            "watch": false,
+            "instances": 1,
+            "mode": "cluster",
+            "env": {
+                "PORT": 3030,
+                "NODE_BELONG": "Design"
+            },
+            "ignore_watch": [
+                "node_modules",
+                "config.env"
+            ]
+        }
+    ]
+}

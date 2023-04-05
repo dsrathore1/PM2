@@ -1,0 +1,36 @@
+{
+    "apps": [
+        {
+            "name": "P1 File",
+            "cwd":"C:/Users/Lenovo/Desktop/Work/Test/P1",
+            "script": "./app.js",
+            "watch": true,
+            "instances": 1,
+            "ignore_watch": [
+                "node_modules",
+                "public"
+            ],
+            "env": {
+                "PORT": 4040,
+                "NODE_BELONG": "Development"
+            }
+        },
+        {
+            "name": "P2 File",
+            "//Comment ": "This below line (script) is most important",
+            "cwd":"C:/Users/Lenovo/Desktop/Work/Test/P2",
+            "script": "./app.js",
+            "watch": true,
+            "instances": 1,
+            "mode": "cluster",
+            "env": {
+                "PORT": 3030,
+                "NODE_BELONG": "Design"
+            },
+            "ignore_watch": [
+                "node_modules",
+                "config.env"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "apps": [
+        {
+            "name": "P1 File",
+            "script": "./app.js",
+            "watch": true,
+            "instances":1,
+            "ignore_watch": [
+                "node_modules",
+                "public"
+            ],
+            "env": {
+                "PORT": 4040,
+                "NODE_BELONG": "Development"
+            }
+        }
+    ]
+}
